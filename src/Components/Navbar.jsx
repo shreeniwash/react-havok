@@ -38,7 +38,7 @@ const Navbar = () => {
 
         {/* Mobile menu, show/hide based on menu state */}
         <div id="mobile-menu" className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <div className="px-2 pt-7 pb-7 space-y-5  sm:px-3 bg-color3 text-2xl  ">
+          <div className="px-2 pt-7 pb-7 space-y-5  sm:px-3 bg-color3 text-2xl  font-custom  ">
             <a href="#" className=" block hover:underline">About Us</a>
             <a href="#" className=" block hover:underline">Services</a>
             <a href="#" className=" block hover:underline">Contact</a>
