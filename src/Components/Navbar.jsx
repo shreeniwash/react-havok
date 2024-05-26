@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
 
             {/* Navbar links */}
-            <div className="hidden md:flex md:items-center lg:space-x-10 md:space-x-4 text-2xl">
+            <div className="hidden md:flex md:items-center lg:space-x-10 md:space-x-4 text-2xl  font-custom">
               <a href="#" className="hover:underline">About Us</a>
               <a href="#" className="hover:underline">Services</a>
               <a href="#" className="hover:underline">Contact</a>
@@ -38,7 +38,7 @@ const Navbar = () => {
 
         {/* Mobile menu, show/hide based on menu state */}
         <div id="mobile-menu" className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <div className="px-2 pt-2 pb-3 space-y-5  sm:px-3 bg-color3 text-2xl  ">
+          <div className="px-2 pt-7 pb-7 space-y-5  sm:px-3 bg-color3 text-2xl  ">
             <a href="#" className=" block hover:underline">About Us</a>
             <a href="#" className=" block hover:underline">Services</a>
             <a href="#" className=" block hover:underline">Contact</a>

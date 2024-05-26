@@ -99,9 +99,9 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className='py-10'>
+      <div className='py-0'>
         <hr className='bg-color4 h-1 '/>
-        <div className='flex flex-col md:flex-row lg:flex-row    justify-between text-color2 py-5 p-5 gap-5'>
+        <div className='flex flex-col md:flex-row lg:flex-row  font-custom  justify-between text-color2 py-5 p-5 gap-5'>
           <p>©2024 Havok Security, All Right Reserved </p>
           <p>Design & Developed by Havok Security</p>
         </div>

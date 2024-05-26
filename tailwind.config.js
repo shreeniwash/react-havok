@@ -25,7 +25,8 @@ export default {
 
       fontFamily:{
         custom:['Poppins', 'sans-serif'],
-        custom1: ["Dancing Script", "cursive"]
+        custom1: ["Dancing Script", "cursive"],
+       
       },
       colors:{
         color1:"#181818",

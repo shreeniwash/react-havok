@@ -5,6 +5,9 @@ import ShowCards from "./Components/ShowCards";
 import PenerationReport from "./Components/PenerationReport";
 import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
   
